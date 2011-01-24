@@ -1,0 +1,7 @@
+<h2>Add app item</h2>
+<form method="post" action="">
+    <label for="id">ID:</label><br />
+    <input type="text" id="id" name="id" />
+    <input type="submit" value="Add" />
+</form>
+<span tal:replace="structure here/manage_page_footer" />
